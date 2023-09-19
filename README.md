@@ -18,19 +18,19 @@ This repository has:
 
 First check if you have npm installed:
 
-  npm --v
+    npm --v
 
 Second install the NodeJs framework Express:
 
-  npm install express
+    npm install express
 
 Third to get things running:
 
-  node app.js
+    node app.js
 
 Fourth go to a browser and search:
 
-  127.0.0.1:3000
+    127.0.0.1:3000
 
 
 
