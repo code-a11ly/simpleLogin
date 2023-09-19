@@ -7,14 +7,14 @@
 #### - :books: Contents:
 
 This repository has:
-- <p>Html</p> file to structure things.
-- <p>Css</p> file to style.
-- <p>Javascript</p> to just display and hipe password.
-- <p>NodeJs</p> to make a live server.
+- <b>Html</b> file to structure things.
+- <b>Css</b> file to style.
+- <b>Javascript</b> to just display and hipe password.
+- <b>NodeJs</b> to make a live server.
 
 #### How set it up:
 
-<p>ON THE CLONNED DIRECTORY</p>
+<b>ON THE CLONNED DIRECTORY</b>
 
 First check if you have npm installed:
 
