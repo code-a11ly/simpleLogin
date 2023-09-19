@@ -1,0 +1,96 @@
+/* Apply styles to all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the overall container for the login form */
+.Login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+/* Style the login form */
+.Login {
+  width: 30vw;
+  background-color: #fff;
+  border: 1px solid #888;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+/* Style labels for form elements */
+.Login label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+/* Style form input fields */
+.Login input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+  outline-color: #007bff;
+}
+
+/* Style the submit button */
+.Login button {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+/* Hover effect for the submit button */
+.Login button:hover {
+  background-color: #0056b3;
+}
+
+.Login h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.pwd-container {
+  position: relative;
+  margin-bottom: 4rem;
+
+}
+
+.pwd-container input {
+  position: absolute;
+}
+
+.pwd-container button {
+  position: absolute;
+  z-index: 300;
+  margin-left: 9rem;
+  background: none;
+  color: #007bff;
+}
+
+.pwd-container button:hover {
+  background: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .Login {
+    width: 80%; /* Adjust width for smaller screens */
+  }
+
+  .pwd-container button {
+    margin-left: 2rem; /* Adjust margin for smaller screens */
+  }
+}
